@@ -1,2 +1,5 @@
 # hello world
-print("Hello World!")
+class HelloWorld():
+    def hello(self):
+        print("Hello World!")
+        return "Hello World!"
