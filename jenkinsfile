@@ -1,0 +1,12 @@
+node {
+   echo 'Hello World'
+   echo PARENT_TEST
+   echo PARENT_VALUE
+
+   stage('Unit Test') {
+       sh "python3 HelloWorldUT.py"
+   }
+   stage('finish') {
+       sh "echo 'Job Finished!'"
+   }
+}
