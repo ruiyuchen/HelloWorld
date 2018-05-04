@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "jest",
+    "unit": "jest _e2e.test"
+  },
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
